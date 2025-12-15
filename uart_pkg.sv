@@ -1,0 +1,18 @@
+package uart_pkg;
+    import uvm_pkg::*;
+    `include "uvm_macros.svh"
+
+    `include "uart_trans.sv"
+    `include "uart_config.sv"
+    `include "uart_driver.sv"
+    `include "uart_monitor.sv"
+    `include "uart_sequencer.sv"
+    `include "uart_agent.sv"
+    `include "uart_scoreboard.sv"
+    `include "uart_coverage.sv"
+    `include "uart_env.sv"
+    `include "uart_seq_lib.sv"
+
+    `include "uart_test_lib.sv"
+endpackage
+
